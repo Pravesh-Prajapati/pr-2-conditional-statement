@@ -1,0 +1,36 @@
+<!-- 11. Write a JavaScript program to create basic calculator using ledder if else. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let a= parseInt(prompt("enter value a"));
+        let b= parseInt(prompt("enter value b"));
+
+        let sign = prompt("enter sign");
+        let ans;
+
+        if(sign == "+"){
+            // ans= a+b;
+            // console.log("answer",ans);
+            console.log(a+b);
+        }
+        else if (sign == '-') {
+            ans= a-b;
+            console.log("answer",ans);
+        }
+        else if (sign == '*') {
+            ans= a*b;
+            console.log("answer",ans);
+        }
+        else if (sign == '/') {
+            ans= a/b;
+            console.log("answer",ans);
+        }
+    </script>
+</body>
+</html>
