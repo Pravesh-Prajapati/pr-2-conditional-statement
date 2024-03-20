@@ -9,7 +9,7 @@
 </head>
 <body>
     <script>
-        let su ="sunday";
+        let su="sunday";
         let mo = "monday";
         let tu = "tuesday";
         let we = "wednesday";
@@ -17,27 +17,30 @@
         let fr = "friday";
         let sa = "saturday";
 
-        let letter = prompt("enter first letter");
-        if(letter == su){
+        let letter = prompt("enter first two letter of day");
+        if(letter == "su"){
             console.log("day is" ,su);
         }
-        else if(letter == mo){
+        else if(letter == "mo"){
             console.log("day is" ,mo);
         }
-        else if(letter == tu){
+        else if(letter == "tu"){
             console.log("day is" ,tu);
         }
-        else if(letter == we){
-            console.log("wednesday" ,we);
+        else if(letter == "we"){
+            console.log("day is" ,we);
         }
-        else if(letter == th){
+        else if(letter == "th"){
             console.log("day is" ,th);
         }
-        else if(letter == fr){
+        else if(letter == "fr"){
             console.log("day is" ,fr);
         }
-        else if(letter == sa){
+        else if(letter == "sa"){
             console.log("day is" ,sa);
+        }
+        else{
+            console.log("enter valid letter");
         }
     </script>
 </body>
